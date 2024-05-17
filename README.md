@@ -1,6 +1,6 @@
 # FSLFDE
 
-This is the repository of the paper "__A Framework for Learning Depth from a Flexible Subset of Dense and Sparse Light Field Views__"  (__TIP 2019__).
+This is the repository of the paper "__A Framework for Learning Depth From a Flexible Subset of Dense and Sparse Light Field Views__"  (__TIP 2019__).
 
 By [Jinglei Shi](https://jingleishi.github.io/),  [Xiaoran Jiang](https://scholar.google.com/citations?hl=zh-CN&user=zvdY0EcAAAAJ&view_op=list_works&sortby=pubdate)  and  [Christine Guillemot](https://people.rennes.inria.fr/Christine.Guillemot/)
 
@@ -25,7 +25,7 @@ We have created "__INRIA Synthetic Light Field Datasets__" for various light fie
 Please consider citing our work if you find it useful.
 ```
 @article{shi2019depth,
-    title={A Framework for Learning Depth from a Flexible Subset of Dense and Sparse Light Field Views},
+    title={A Framework for Learning Depth From a Flexible Subset of Dense and Sparse Light Field Views},
     author={Jinglei Shi and Xiaoran Jiang and Christine Guillemot},
     journal=TIP,
     volume={28},
