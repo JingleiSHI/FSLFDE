@@ -8,13 +8,15 @@ By [Jinglei Shi](https://jingleishi.github.io/),  [Xiaoran Jiang](https://schola
 
 ## Dependencies
 ```
-python==xxx
-tensorflow==xxx
+python==2.X or <=3.6
+tensorflow==1.2.1
+cuda version==8.0.27 compatible GPU (tested on NVIDIA Tesla P-100)
 ```
 
-## Evaluation
+## Contents
 ```
-TODO Later
+Folder 'fn2': the code of FlowNet 2.0 and some tool functions.
+Folder 'models': two well trained models (one for densely sampled light fields, the other for sparsely sampled light fields).
 ```
 
 ## Datasets
