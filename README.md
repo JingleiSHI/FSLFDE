@@ -33,6 +33,12 @@ Download links: [dense model](https://pan.baidu.com/s/13beodQnn7PnAgB-Mrz82Pw?pw
 - *min_radius* & *max_radius*: the two parameters that decide which views are used as '*stereo views*' for estimation, those views falling into the range [min_radius, max_radius] and in the same row & column of the target view will be stereo views.
 - warping_view_positions: a list containing the positions of the '*warping views*'.
 
+After configurating all parameters, we can simply launch the simulation by:
+```
+python test.py
+
+```
+
 
 ## Datasets
 We have created the "__INRIA Synthetic Light Field Datasets__" tailored for diverse light field processing tasks: __Dense Light Field Dataset__ ([__DLFD__](https://pan.baidu.com/s/1tywF8hcgx4i5IDRQKIEV_A), captcha "__dlfd__") and __Sparse Light Field Dataset__ ([__SLFD__](https://pan.baidu.com/s/1jzFkTfJyx2XhkpF6nItoBQ), captcha "__slfd__"), each dataset in a .zip format. Every light field included in the datasets boasts an angular resolution of $9 \times 9$ and a spatial resolution $512 \times 512$. Within each scene folder, we provide all sub-aperture images in __.PNG__ format, alongside disparity maps available in both __.npy__ and __.mat__ file formats, and a __.cfg__ file containing camera parameters.
