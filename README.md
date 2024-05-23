@@ -26,9 +26,12 @@ Download links: [dense model](https://pan.baidu.com/s/13beodQnn7PnAgB-Mrz82Pw?pw
 
 **pipeline.py**: our proposed pipeline, which integrates both FlowNet 2.0 and refinement network together.
 
-**test.py**: 
-
-
+**test.py**: applying our framework to estimate depth map. In its main function, input parameters are:
+- *checkpoint*: the path to the trained model;
+- *lf_file_path*: the path to a .h5 file containing the target light field, and this light field should be stored as an array with shape [H,W,C,U,V] and with type unit8, and the name of this array is '*image*'
+- *row* & *column*: the row & column index for the target sub-apeture view, whose disparity map will be estimated.
+- *min_radius* & *max_radius*: the two parameters that decide which views are used as '*stereo views*' for estimation, those views falling into the range [min_radius, max_radius] and in the same row & column of the target view will be stereo views.
+- warping_view_positions: a list containing the positions of the '*warping views*'.
 
 
 ## Datasets
