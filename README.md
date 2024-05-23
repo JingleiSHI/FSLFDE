@@ -20,6 +20,14 @@ Folder '**models**': two well trained models (one for densely sampled light fiel
 
 Download links: [dense model](https://pan.baidu.com/s/13beodQnn7PnAgB-Mrz82Pw?pwd=0000)  &  [sparse model](https://pan.baidu.com/s/1ngwujIxeUPknGSMAmk7R6w?pwd=0001)
 
+**refinement.py**: the code for the refinement network.
+
+**warper.py**: it inclueds functions that warp images towards desired position.
+
+**pipeline.py**: our proposed pipeline, which integrates both FlowNet 2.0 and refinement network together.
+
+**test.py**: 
+
 
 
 
