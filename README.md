@@ -50,7 +50,7 @@ Please consider citing our work if you find it useful.
 @article{shi2019depth,
     title={A Framework for Learning Depth From a Flexible Subset of Dense and Sparse Light Field Views},
     author={Jinglei Shi and Xiaoran Jiang and Christine Guillemot},
-    journal=TIP,
+    journal={IEEE Transactions on Image Processing},
     volume={28},
     number={12},
     pages={5867-5880},
