@@ -41,7 +41,7 @@ python test.py
 
 
 ## Datasets
-We have created the "__INRIA Synthetic Light Field Datasets__" tailored for diverse light field processing tasks: __Dense Light Field Dataset__ ([__DLFD__](https://pan.baidu.com/s/1tywF8hcgx4i5IDRQKIEV_A), captcha "__dlfd__") and __Sparse Light Field Dataset__ ([__SLFD__](https://pan.baidu.com/s/1jzFkTfJyx2XhkpF6nItoBQ), captcha "__slfd__"), each dataset in a .zip format. Every light field included in the datasets boasts an angular resolution of $9 \times 9$ and a spatial resolution $512 \times 512$. Within each scene folder, we provide all sub-aperture images in __.PNG__ format, alongside disparity maps available in both __.npy__ and __.mat__ file formats, and a __.cfg__ file containing camera parameters.
+We have created the "__INRIA Synthetic Light Field Datasets__" tailored for diverse light field processing tasks: __Dense Light Field Dataset__ ([__DLFD__](https://pan.baidu.com/s/17oXadMpxGU4xBmAL1lQXIQ?pwd=lfcc), captcha "__lfcc__") and __Sparse Light Field Dataset__ ([__SLFD__](https://pan.baidu.com/s/18ewi7irA3tO_CmOX_94v_A?pwd=lfcc)), captcha "__lfcc__"), each dataset in a .zip format. Every light field included in the datasets boasts an angular resolution of $9 \times 9$ and a spatial resolution $512 \times 512$. Within each scene folder, we provide all sub-aperture images in __.PNG__ format, alongside disparity maps available in both __.npy__ and __.mat__ file formats, and a __.cfg__ file containing camera parameters.
 
 
 ## Citation
